@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+.event {
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(202, 245, 222);
+  text-align: center;
+  margin: 5px 0;
+}
+
+.event.red {
+  background-color: red;
+}
+
+.event.green {
+  background-color: green;
+}
+
+.event.blue {
+  background-color: blue;
+}
+
+.event.yellow {
+  background-color: yellow;
+}
+.pink {
+  background: pink;
+}
+
+.blue {
+  background: rgb(190, 219, 229);
+}
+
+.green {
+  background: rgb(202, 245, 222);
+}
